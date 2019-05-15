@@ -2297,6 +2297,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "/Users/davecyen/next-bootstrap/pages/_document.js";
 
+// Example: https://github.com/zeit/next.js/tree/master/examples/with-styled-components
+// This enables styled-components to render server-side to prevent flashing when a page loads initially
 
 
 
@@ -2333,7 +2335,7 @@ function (_Document) {
                         return sheet.collectStyles(react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(App, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, props, {
                           __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 12
+                            lineNumber: 15
                           },
                           __self: this
                         })));

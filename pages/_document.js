@@ -1,3 +1,6 @@
+// Example: https://github.com/zeit/next.js/tree/master/examples/with-styled-components
+// This enables styled-components to render server-side to prevent flashing when a page loads initially
+
 import Document from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
