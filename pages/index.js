@@ -1,14 +1,8 @@
 import Head from 'next/head';
 import { Row, Col, Container } from 'react-bootstrap';
-
 import styled, { createGlobalStyle } from 'styled-components';
 
-const SideNav = styled.div`
-  height: 100vh;
-  width: 250px;
-  background-color: #f5f5f5;
-  padding: 15px;
-`;
+import SideNav from '../components/SideNav';
 
 const Content = styled(Col)`
   padding: 15px;
@@ -44,7 +38,7 @@ function Home() {
       </Head>
       <Wrapper fluid>
         <Row noGutters>
-          <SideNav>SideNav</SideNav>
+          <SideNav />
           <Content>
             <h1>Content</h1>
           </Content>

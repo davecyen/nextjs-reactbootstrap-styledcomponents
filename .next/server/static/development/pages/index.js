@@ -93,6 +93,41 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/SideNav.js":
+/*!*******************************!*\
+  !*** ./components/SideNav.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/davecyen/next-bootstrap/components/SideNav.js";
+
+
+var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "SideNav__Wrapper",
+  componentId: "e8lvaa-0"
+})(["height:100vh;width:250px;background-color:#f5f5f5;padding:15px;"]);
+
+function SideNav() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "SideNav");
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (SideNav);
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
 /*!*********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
@@ -163,6 +198,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_SideNav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/SideNav */ "./components/SideNav.js");
 
 var _jsxFileName = "/Users/davecyen/next-bootstrap/pages/index.js";
 
@@ -180,17 +216,14 @@ function _templateObject() {
 
 
 
-var SideNav = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div.withConfig({
-  displayName: "pages__SideNav",
-  componentId: "sc-19chkme-0"
-})(["height:100vh;width:250px;background-color:#f5f5f5;padding:15px;"]);
+
 var Content = styled_components__WEBPACK_IMPORTED_MODULE_4___default()(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Col"]).withConfig({
   displayName: "pages__Content",
-  componentId: "sc-19chkme-1"
+  componentId: "sc-19chkme-0"
 })(["padding:15px;"]);
 var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_4___default()(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"]).withConfig({
   displayName: "pages__Wrapper",
-  componentId: "sc-19chkme-2"
+  componentId: "sc-19chkme-1"
 })(["padding:0;"]);
 var GlobalStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_4__["createGlobalStyle"])(_templateObject());
 
@@ -198,25 +231,25 @@ function Home() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlobalStyle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 26
     },
     __self: this
   }, "No code"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -226,7 +259,7 @@ function Home() {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -235,39 +268,39 @@ function Home() {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 33
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Wrapper, {
     fluid: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
     noGutters: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 40
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SideNav, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SideNav__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 41
     },
     __self: this
-  }, "SideNav"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Content, {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 43
     },
     __self: this
   }, "Content")))));
