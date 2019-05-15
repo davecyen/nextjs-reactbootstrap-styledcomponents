@@ -252,7 +252,7 @@ function Home() {
       lineNumber: 26
     },
     __self: this
-  }, "No code"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+  }, "New Project"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
